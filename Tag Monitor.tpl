@@ -138,7 +138,6 @@ const event = data.event;
 // Evento que será enviado ao data layer para disparar a tag de erro, conforme documentações internas 
 const EVENT_TO_IGNORE = 'throw_error'; 
 const typeButton = data.typeButton;
-const endpoint = 'https://script.google.com/a/macros/gruposbf.com.br/s/AKfycbyf93mSuredGdIkSQ5-W6xqhuZFLZKIXfR3QRhpId8jQhyp-JILOPTmiG2-ZV4-P_yDwQ/exec';
 
 // Filtro dos status selecionados para serem enviados
 const tagStatus = Object.entries(data).filter((p) => {
